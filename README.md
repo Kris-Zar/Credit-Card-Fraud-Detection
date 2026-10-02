@@ -35,6 +35,18 @@ The dataset (`creditcard.csv`) contains anonymized credit card transactions labe
 
 > ⚠️ **Class Imbalance:** Fraudulent transactions make up a very small fraction of all records. The notebook computes the outlier fraction (`len(fraud) / len(valid)`) to quantify this imbalance.
 
+### ⬇️ Download the Dataset
+
+The dataset is not included in this repository. Download it from the link below and place it in the project root directory:
+
+**[📥 Download creditcard.csv](https://media.geeksforgeeks.org/wp-content/uploads/20240904104950/creditcard.csv)**
+
+Or via the terminal:
+
+```bash
+wget -O creditcard.csv "https://media.geeksforgeeks.org/wp-content/uploads/20240904104950/creditcard.csv"
+```
+
 ---
 
 ## ⚙️ Workflow
@@ -137,4 +149,4 @@ The model outputs the following on the test set:
 
 ## 📄 License
 
-This project is for learning proposes
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
